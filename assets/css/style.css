@@ -1,0 +1,146 @@
+/*GLOBAL*/
+:root{
+  --black:#000;
+  --white:#fff;
+  --danger:#dc3545;
+  --acolor:#373A3C;
+  --bcolor:#dddddd;
+}
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+/*HEADER*/
+.navbar-brand , footer p{
+  font-family:'Lobster',sans-serif ;
+  font-size: 2rem;
+}
+
+/*MAIN*/
+.main{
+  margin-top: 3.3rem;
+  padding-top: 2.2rem;
+}
+.main img{
+  width: 100%;
+}
+
+.main a{
+  font-size: 13px;
+}
+.main h1{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.main h5{
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+/*CONTENT*/
+.content{
+  line-height: 2;
+}
+.content p{
+  margin-bottom: 30px;
+}
+.content h5{
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.content ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+.content ol{
+padding: 0;
+}
+/*RECIPES*/
+.recipes h2{
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 0;
+}
+.card h5{
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+/*NEWSLETTER*/
+#newsletter{
+  padding: 40px 0;
+  margin-top: 35px;
+}
+#newsletter h2{
+font-weight: 700;
+}
+#newsletter h4 span{
+  font-family: 'Lobster', sans-serif;
+}
+#newsletter a{
+  width: 100%;
+}
+#newsletter a:hover{
+ color: var(--black);
+}
+/*POPOVER*/
+.popover-body{
+  background-color: var(--acolor);
+  color: var(--bcolor);
+  border-radius: 3px;
+}
+/*CAROUSEL*/
+.carousel-indicators {
+  bottom: -56px;
+
+
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--acolor);
+}
+
+/*transicion lenta del carousel*/
+.carousel-item{
+  transition: transform 2s ease;
+   opacity: .5s ease-out;
+}
+.carousel-item img{
+  width: 100%;
+}
+
+/*BG*/
+.bg-dark{
+  background-color: var(--acolor)!important;
+}
+.bg-danger{
+  background-color: var(--danger)!important;
+}
+
+/*  MEDIA QUERYS*/
+@media (min-width: 990px) {
+  .main h1{
+    font-size: 45px!important;
+  }
+  .main-text{
+    text-align: left;
+  } 
+  }
+  @media (min-width: 500px) {
+  .border-top{
+    border-top:none!important;
+  }
+  .border-dark{
+    border-color: none!important;
+  }
+  .main-text h5{
+    padding:20px 0;
+  }
+  }
