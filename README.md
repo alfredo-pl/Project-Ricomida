@@ -1,4 +1,4 @@
-# Proyect-Ricomida
+# Project-Ricomida
 
  >**Nota** _Readme.md para la presentación de mi proyecto._
  
@@ -7,7 +7,7 @@
 ```
 
 ## ¡Vé Ahora!
-Verás la vista final en [Proyecto Ricomida](https://alfredo-pl.github.io/Proyect-Ricomida/)
+Verás la vista final en [Proyecto Ricomida](https://alfredo-pl.github.io/Project-Ricomida/)
 
  
 ## Requisitos
